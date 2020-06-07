@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>HealthCare.Ai</title>
+	<link rel="shortcut icon"  href=""/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+	<!-- owl carousel CSS -->
+   <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/login.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js">
+
+</head>
+<body data-spy="scroll" data-target=".demo-top-nav" data-offset="65">
+	<header>
+		 <nav class="navbar demo-top-nav navbar-fixed-top" role="navigation">
+		 	<div class="container-fluid">
+		 		<div class="demo-nav-wrapper">
+		 			<div class="navbar-header" align="left">
+		 				<button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-menu" >
+		 					<span class="sr-only">Toggle navigation</span>
+		 					<span class="icon-bar"></span>
+		 					<span class="icon-bar"></span>
+		 					<span class="icon-bar"></span>
+		 				</button>
+		 				<a class="navbar-brand" href="index.html">
+		 					HealthCare.Ai
+		 				</a>
+		 			</div>
+		 			<div class="collapse navbar-collapse " id="demo-menu">
+		 				<ul class="nav navbar-nav">
+		 					<li><a class="smooth-scroll" href="index.html">Home</a></li>
+							<!-- <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Diseases</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="malaria.html">Malaria</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="breast_cancer.html">Breast Cancer</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="diabetic_retinopathy.html">Diabetic Retinopathy</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="lung_diseases.html">Lung Diseases</a>
+								</div>
+							</li> -->
+				              <li><a class="smooth-scroll" href="login.html">Login</a></li>
+				              <li><a class="smooth-scroll" href="signup.html">SignUp</a></li>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </nav>
+	</header>
+
+
+  <section>
+    <div class="animated bounceInDown">
+      <div class="container loginform">
+        <span class="error animated tada" id="msg"></span>
+        <form name="form1" class="box" onsubmit="return checkStuff()">
+          <h4>HealthCare<span> . AI</span></h4>
+          <br>
+          <h5>Log In to your account.</h5>
+            <input type="text" name="username" placeholder="Username" autocomplete="off">
+            <i class="typcn typcn-eye" id="eye"></i>
+            <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off">
+            <label class="label-rmb">
+              <input type="checkbox">
+              <span></span>
+              <small class="rmb">Remember me</small>
+            </label>
+            <a href="#" class="forgetpass">Forget Password?</a>
+            <input type="submit" value="Log in" class="btn1">
+          </form>
+          <!-- <br>
+          <br>
+          <br>
+          <br>
+          <br> -->
+          <a href="signup.html" class="dnthave">Don’t have an account? Sign up</a>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/login.js"></script>
+
+</body>
+</html>
